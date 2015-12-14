@@ -31,17 +31,17 @@ public class Game {
     private final double carWidth;
     private final double carHeight;
 
-    private final double carEnginePowerChangePerTick;
-    private final double carWheelTurnChangePerTick;
+    private final double carEnginePowerChangePerTick; // 0.025
+    private final double carWheelTurnChangePerTick; // 0.05
 
-    private final double carAngularSpeedFactor;
+    private final double carAngularSpeedFactor; // 0.0017453292519943296
 
-    private final double carMovementAirFrictionFactor;
-    private final double carRotationAirFrictionFactor;
+    private final double carMovementAirFrictionFactor; // 0.0075
+    private final double carRotationAirFrictionFactor; // 0.0075
 
-    private final double carLengthwiseMovementFrictionFactor;
-    private final double carCrosswiseMovementFrictionFactor;
-    private final double carRotationFrictionFactor;
+    private final double carLengthwiseMovementFrictionFactor; // 0.001
+    private final double carCrosswiseMovementFrictionFactor; // 0.25
+    private final double carRotationFrictionFactor; // 0.008726646259971648
 
     private final int throwProjectileCooldownTicks;
     private final int useNitroCooldownTicks;
